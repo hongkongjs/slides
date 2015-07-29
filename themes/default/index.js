@@ -1,13 +1,13 @@
 const colors = {
-  primary: "#f9c300",
-  secondary: "black",
+  primary: "#F7DF1E",
+  secondary: "#323330",
   tertiary: "white"
 };
 
 const fonts = {
-  primary: "Open Sans Condensed",
+  primary: "Helvetica Neue",
   secondary: "Lobster Two",
-  tertiary: "monospace"
+  tertiary: "Helvetica Neue"
 };
 
 module.exports = {
@@ -212,12 +212,14 @@ module.exports = {
       textDecoration: "none"
     },
     listItem: {
-      fontSize: "2.66em"
+      fontSize: "2.66em",
+      padding: 1
     },
     list: {
       textAlign: "left",
       listStylePosition: "inside",
-      padding: 0
+      padding: 5,
+      marginTop: 25
     },
     s: {
       strikethrough: {}
